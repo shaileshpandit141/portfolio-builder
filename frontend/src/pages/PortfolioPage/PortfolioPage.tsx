@@ -1,7 +1,7 @@
 import React, { FC, JSX } from "react";
 import "./PortfolioPage.css";
 import { AddSEO } from "SEO";
-import HeroSection from "./Sections/HeroSection";
+import HeroSection from "./Sections/HeroSection/HeroSection";
 import { useParams } from "react-router-dom";
 
 interface PortfolioPageProps { }

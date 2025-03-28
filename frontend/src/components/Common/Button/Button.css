@@ -8,7 +8,6 @@ button {
   height: var(--button-height);
   width: fit-content;
   outline: none;
-  padding: var(--button-padding);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -47,6 +46,7 @@ button {
   }
 
   &.button {
+    padding: var(--button-padding);
     width: 100%;
     border: var(--border);
     border-radius: 16px;
@@ -70,6 +70,7 @@ button {
   }
 
   &.button-as-icon {
+    padding: var(--button-padding);
     height: var(--button-height);
     min-height: var(--button-height);
     width: var(--button-height);

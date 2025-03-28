@@ -86,12 +86,11 @@ h6 {
  */
 p,
 details {
-  margin-block: 1em;
   font-size: calc(14 / 16 * 1rem);
   letter-spacing: 0.04em;
   color: var(--text-primary);
   line-height: 1.5;
-  transition: color 0.3s ease-in;
+  transition: color var(--ts-duration) var(--ts-timing-function);
 }
 
 /* Form Typography
@@ -126,7 +125,7 @@ a:active {
   letter-spacing: 0.04em;
   font-weight: 600;
   color: var(--link-primary);
-  transition: color 0.3s ease-in;
+  transition: var(--ts-duration) var(--ts-timing-function);
 
   &:is(:hover, :focus, :focus-visible) {
     color: var(--link-hover);

@@ -1,0 +1,8 @@
+.portfolio-page {
+  min-height: var(--screen-height);
+
+  .content {
+    display: flex;
+    flex-direction: column;
+  }
+}

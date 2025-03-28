@@ -18,6 +18,7 @@ const VerifyUserAccountPage = importLazyModule(
   () => import("pages/VerifyUserAccountPage"),
 );
 const DashboardPage = importLazyModule(() => import("pages/Dashboard"));
+const PortfolioPage = importLazyModule(() => import("pages/PortfolioPage"));
 
 // Lazy-loaded 404 Not Found Page
 const NotFoundPage = importLazyModule(() => import("pages/NotFoundPage"));
@@ -50,6 +51,15 @@ const AppRoutes: React.FC = () => {
                 element={
                   <RenderLazyModule
                     element={<IndexPage />}
+                    fallback={<PageLoader />}
+                  />
+                }
+              />
+              <Route
+                path="/:username"
+                element={
+                  <RenderLazyModule
+                    element={<PortfolioPage />}
                     fallback={<PageLoader />}
                   />
                 }

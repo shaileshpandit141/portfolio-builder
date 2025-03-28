@@ -1,6 +1,6 @@
-# Django, React and TypeScript Initial Code with JWT Authentication
+# PBuilder - Portfolio Builder Web Application 
 
-This project is a Initial Code for setting up a web application using Django for the backend with JWT (JSON Web Token) authentication, and React with TypeScript for the frontend.
+This project is a portfolio builder web application using Django for the backend with JWT (JSON Web Token) authentication, and React with TypeScript for the frontend.
 
 ## Features
 
@@ -8,6 +8,8 @@ This project is a Initial Code for setting up a web application using Django for
 - JWT Authentication for all actions
 - React with TypeScript frontend setup with Create React App
 - Integration between Django and React
+- Portfolio creation and management functionality
+- Customizable portfolio templates and sections
 
 ## Requirements
 
@@ -23,8 +25,8 @@ This project is a Initial Code for setting up a web application using Django for
 1. **Clone the repository:**
 
   ```bash
-  git clone https://github.com/shaileshpandit141/django-react-typescript-initial-code.git
-  cd django-react-typescript-initial-code
+  git clone https://github.com/shaileshpandit141/portfolio-builder.git
+  cd portfolio-builder
   ```
 
 2. **Create a virtual environment:**
@@ -425,7 +427,7 @@ Content-Type: application/json
 
 {
   "uid": "uid_from_email",
-  "token": "token_from_email",
+  "token": "token_from_email", 
   "new_password1": "new_strong_password123",
   "new_password2": "new_strong_password123"
 }

@@ -1,5 +1,5 @@
 export const metaConfig = {
-  appName: "React",
+  appName: "PBuilder",
   canonical: "https://www.mywebsite.com/",
   metaTags: {
     "og:image": "https://www.mywebsite.com/og-image.jpg",

@@ -3,7 +3,7 @@ import "./IndexPage.css";
 import { Navigate } from "react-router-dom";
 import { AddSEO } from "SEO";
 import { isUserAuthenticated } from "utils/isUserAuthenticated";
-import { SigninLink, SignupLink } from "components";
+import { NavLink } from "components";
 
 const IndexPage: React.FC = (props) => {
   if (isUserAuthenticated()) {
@@ -18,17 +18,16 @@ const IndexPage: React.FC = (props) => {
         keywords="home, react, SEO, optimization"
       />
       <div className="grid-start-2-end-2 index-page">
-        <figure className="logo-container">
-          <img src="logo512.png" alt="logo512.png" />
-        </figure>
-        <h1>Welcome to building robust UI's</h1>
-        <p>
-          This boilerplate includes all the necessary setup for building robust
-          UI's using React With Django and Django Rest Framework.
+        <h2 className="title">Your Portfolio, Your Story</h2>
+        <p className="description">
+          Create a professional portfolio that stands out.
+          PBuilder makes it easy to showcase your work, skills,
+          and achievements with customizable templates, email
+          authentication, and seamless portfolio management.
         </p>
-        <div className="buttons-conatiner">
-          <SigninLink />
-          <SignupLink />
+        <div className="action-container">
+          <NavLink to="/signup" type="link">Get Started</NavLink>
+          <NavLink to="/demo" type="link">View Demo</NavLink>
         </div>
       </div>
     </div>

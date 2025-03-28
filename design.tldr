@@ -36,15 +36,15 @@
 		{
 			"id": "pointer:pointer",
 			"typeName": "pointer",
-			"x": 209.79700483486326,
-			"y": 531.9451161160569,
-			"lastActivityTimestamp": 1742923830733,
+			"x": 711,
+			"y": 651,
+			"lastActivityTimestamp": 1743168265838,
 			"meta": {}
 		},
 		{
-			"x": -5.6573286144278825,
-			"y": -124.63325029234466,
-			"z": 1.033606028512344,
+			"x": 645,
+			"y": 84,
+			"z": 1,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
@@ -52,10 +52,8 @@
 		{
 			"editingShapeId": null,
 			"croppingShapeId": null,
-			"selectedShapeIds": [
-				"shape:9wlvLAz__DfexCNo08t2j"
-			],
-			"hoveredShapeId": "shape:9wlvLAz__DfexCNo08t2j",
+			"selectedShapeIds": [],
+			"hoveredShapeId": null,
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
 			"focusedGroupId": null,
@@ -63,43 +61,6 @@
 			"id": "instance_page_state:page:page",
 			"pageId": "page:page",
 			"typeName": "instance_page_state"
-		},
-		{
-			"x": 160,
-			"y": 450,
-			"rotation": 0,
-			"isLocked": false,
-			"opacity": 1,
-			"meta": {},
-			"id": "shape:9wlvLAz__DfexCNo08t2j",
-			"type": "geo",
-			"props": {
-				"w": 100,
-				"h": 80,
-				"geo": "rectangle",
-				"color": "black",
-				"labelColor": "black",
-				"fill": "none",
-				"dash": "draw",
-				"size": "m",
-				"font": "draw",
-				"align": "middle",
-				"verticalAlign": "middle",
-				"growY": 0,
-				"url": "",
-				"scale": 1,
-				"richText": {
-					"type": "doc",
-					"content": [
-						{
-							"type": "paragraph"
-						}
-					]
-				}
-			},
-			"parentId": "page:page",
-			"index": "a1",
-			"typeName": "shape"
 		},
 		{
 			"meta": {},
@@ -118,17 +79,11 @@
 		{
 			"followingUserId": null,
 			"opacityForNextShape": 1,
-			"stylesForNextShape": {
-				"tldraw:geo": "rectangle",
-				"tldraw:dash": "draw",
-				"tldraw:color": "black",
-				"tldraw:textAlign": "middle",
-				"tldraw:horizontalAlign": "middle"
-			},
+			"stylesForNextShape": {},
 			"brush": null,
 			"scribbles": [],
 			"cursor": {
-				"type": "ns-resize",
+				"type": "default",
 				"rotation": 0
 			},
 			"isFocusMode": false,
@@ -138,7 +93,7 @@
 			"screenBounds": {
 				"x": 0,
 				"y": 0,
-				"w": 736,
+				"w": 1472,
 				"h": 934
 			},
 			"insets": [
@@ -148,7 +103,7 @@
 				false
 			],
 			"zoomBrush": null,
-			"isGridMode": true,
+			"isGridMode": false,
 			"isPenMode": false,
 			"chatMessage": "",
 			"isChatting": false,

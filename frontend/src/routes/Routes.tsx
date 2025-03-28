@@ -8,7 +8,6 @@ import { RootLayout, MainLayout, AuthLayout, DashboardLayout } from "Layouts";
 
 // Default Page loader Imports
 import { PageLoader } from "components";
-import IndexPageSkeleton from "pages/IndexPage";
 
 // Lazy-loaded Page Imports
 const IndexPage = importLazyModule(() => import("pages/IndexPage"));
@@ -51,7 +50,7 @@ const AppRoutes: React.FC = () => {
                 element={
                   <RenderLazyModule
                     element={<IndexPage />}
-                    fallback={<IndexPageSkeleton />}
+                    fallback={<PageLoader />}
                   />
                 }
               />

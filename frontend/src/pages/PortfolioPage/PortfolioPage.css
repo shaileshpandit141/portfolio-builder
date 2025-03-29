@@ -1,5 +1,6 @@
 .portfolio-page {
   min-height: var(--screen-height);
+  margin-bottom: 16px;
 
   .content {
     display: flex;

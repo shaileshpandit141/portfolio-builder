@@ -36,18 +36,235 @@
 		{
 			"id": "pointer:pointer",
 			"typeName": "pointer",
-			"x": 711,
-			"y": 651,
-			"lastActivityTimestamp": 1743168265838,
+			"x": -486.74437141418457,
+			"y": -2099.6534955501556,
+			"lastActivityTimestamp": 1743175119670,
 			"meta": {}
 		},
 		{
-			"x": 645,
-			"y": 84,
+			"x": -86,
+			"y": -1893.7046813964844,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:OX8qlFxQaIYYAklxFGh-S",
+			"type": "line",
+			"props": {
+				"dash": "draw",
+				"size": "m",
+				"color": "black",
+				"spline": "line",
+				"points": {
+					"a1": {
+						"id": "a1",
+						"index": "a1",
+						"x": 1,
+						"y": -18
+					},
+					"a28h6": {
+						"id": "a28h6",
+						"index": "a28h6",
+						"x": 2,
+						"y": 291
+					}
+				},
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a25df",
+			"typeName": "shape"
+		},
+		{
+			"x": 723.7443714141846,
+			"y": 2166.6534955501556,
 			"z": 1,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
+		},
+		{
+			"x": -53,
+			"y": -1890.9078063964844,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:IoszWfySN-rddocwjx99t",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 134.15625,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Aboute me"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "a43Vj",
+			"typeName": "shape"
+		},
+		{
+			"x": -53,
+			"y": -1852.8531188964844,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:0hTP4P5AK6Zq7g9fAbOcP",
+			"type": "text",
+			"props": {
+				"color": "grey",
+				"size": "s",
+				"w": 378.21875,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "bold"
+										}
+									],
+									"text": "Lorem Ipsum"
+								},
+								{
+									"type": "text",
+									"text": " is simply dummy text of"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "the printing and typesetting industry."
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Lorem Ipsum has been the industry's"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "standard dummy text ever since the"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "1500s, when an unknown printer took"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "a galley of type and scrambled it to"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "make a type specimen book. It has"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "survived not only five centuries, but"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "also the leap into electronic typesetting"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "a54lJ",
+			"typeName": "shape"
 		},
 		{
 			"editingShapeId": null,
@@ -61,6 +278,80 @@
 			"id": "instance_page_state:page:page",
 			"pageId": "page:page",
 			"typeName": "instance_page_state"
+		},
+		{
+			"x": -293,
+			"y": -1905.7046813964844,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:2Ju8AG5ducVzoSPiqGoTH",
+			"type": "geo",
+			"props": {
+				"w": 202,
+				"h": 297,
+				"geo": "rectangle",
+				"color": "black",
+				"labelColor": "black",
+				"fill": "none",
+				"dash": "draw",
+				"size": "m",
+				"font": "draw",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "a31P3",
+			"typeName": "shape"
+		},
+		{
+			"x": -299,
+			"y": -1912.7046813964844,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:FI3Mjy8DBhkcqQIHDfOOG",
+			"type": "geo",
+			"props": {
+				"w": 638,
+				"h": 310,
+				"geo": "rectangle",
+				"color": "black",
+				"labelColor": "black",
+				"fill": "none",
+				"dash": "draw",
+				"size": "m",
+				"font": "draw",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "a1",
+			"typeName": "shape"
 		},
 		{
 			"meta": {},
@@ -79,7 +370,13 @@
 		{
 			"followingUserId": null,
 			"opacityForNextShape": 1,
-			"stylesForNextShape": {},
+			"stylesForNextShape": {
+				"tldraw:geo": "rectangle",
+				"tldraw:size": "m",
+				"tldraw:color": "grey",
+				"tldraw:fill": "none",
+				"tldraw:horizontalAlign": "start"
+			},
 			"brush": null,
 			"scribbles": [],
 			"cursor": {

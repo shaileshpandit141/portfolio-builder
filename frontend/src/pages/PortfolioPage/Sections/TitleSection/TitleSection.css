@@ -1,0 +1,26 @@
+.title-section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-block: 16px;
+  margin-top: 32px;
+
+  .title {
+    position: relative;
+    padding-inline: 16px;
+    border-radius: 999rem;
+
+    &::before {
+      content: "";
+      position: absolute;
+      bottom: -4px;
+      left: 20%;
+      right: 20%;
+      height: 4px;
+      border-radius: 999rem;
+      background-color: var(--border-primary);
+      transition: var(--ts-primary);
+    }
+  }
+}
